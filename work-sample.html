@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Work Samples</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-badge"><i class="fa-solid fa-code"></i></div>
+      <div class="brand-text">
+        <strong>Your Name</strong>
+        <span>Developer Portfolio</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a></li>
+      <li class="nav-item"><a class="nav-link active" href="work-sample.html"><i class="fa-solid fa-laptop-code"></i><span class="nav-label">Work Samples</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="skills.html"><i class="fa-solid fa-bolt"></i><span class="nav-label">Skills</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="education.html"><i class="fa-solid fa-graduation-cap"></i><span class="nav-label">Education</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="aboutme.html"><i class="fa-solid fa-user"></i><span class="nav-label">About & Contact</span></a></li>
+    </ul>
+
+    <div class="theme-wrap">
+    <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+        <span class="theme-label">Toggle Theme</span>
+    </button>
+    </div>  
+    <div class="sidebar-footer"><small>PROJECTS</small><p>Feature the best work you want instructors or employers to notice first.</p></div>
+  </aside>
+
+  <main class="page-content">
+    <div class="container">
+      <section class="hero reveal">
+        <div class="kicker"><i class="fa-solid fa-folder-open"></i> Selected Work</div>
+        <h1 class="gradient-text">Apps and project concepts built to solve problems and engage users.</h1>
+        <p>This page showcases portfolio-ready project ideas. They are framed as concept builds, class work, or practice products so the presentation stays honest while still looking polished and professional.</p>
+      </section>
+
+      <section class="section reveal delay-1">
+        <div class="card-grid">
+          <article class="project-card">
+            <div class="card-top">
+              <div class="icon-box"><i class="fa-solid fa-jet-fighter-up"></i></div>
+              <span class="chip">JavaScript Game</span>
+            </div>
+            <h3>Alien Space Shooter</h3>
+            <p>A browser-based arcade game where players dodge incoming enemies, fire projectiles, and build score multipliers across increasingly difficult levels.</p>
+            <div class="tag-row">
+              <span class="tag"><i class="fa-brands fa-js"></i> JavaScript</span>
+              <span class="tag"><i class="fa-solid fa-display"></i> Responsive UI</span>
+              <span class="tag"><i class="fa-solid fa-trophy"></i> Score System</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <div class="icon-box"><i class="fa-solid fa-list-check"></i></div>
+              <span class="chip">Productivity App</span>
+            </div>
+            <h3>Smart Task Planner</h3>
+            <p>A clean planner interface that helps users organize deadlines, categorize assignments, and keep weekly priorities visible through a dashboard layout.</p>
+            <div class="tag-row">
+              <span class="tag"><i class="fa-brands fa-html5"></i> HTML</span>
+              <span class="tag"><i class="fa-brands fa-css3-alt"></i> CSS</span>
+              <span class="tag"><i class="fa-solid fa-calendar-days"></i> Scheduling UI</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="card-top">
+              <div class="icon-box"><i class="fa-solid fa-chart-line"></i></div>
+              <span class="chip">Data Dashboard</span>
+            </div>
+            <h3>Study Progress Tracker</h3>
+            <p>A dashboard concept that visualizes class goals, assignment completion, and learning progress with simple charts and a modern card-based interface.</p>
+            <div class="tag-row">
+              <span class="tag"><i class="fa-solid fa-table-columns"></i> Dashboard</span>
+              <span class="tag"><i class="fa-solid fa-chart-pie"></i> Analytics</span>
+              <span class="tag"><i class="fa-solid fa-mobile-screen"></i> Mobile Friendly</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal delay-2">
+        <div class="section-header">
+          <h2>How to describe your work</h2>
+          <p class="muted">A useful format for course portfolios.</p>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-pen"></i> Project Title</span>
+              <span><i class="fa-solid fa-bullseye"></i> Goal</span>
+              <span><i class="fa-solid fa-screwdriver-wrench"></i> Tools</span>
+            </div>
+            <h3>Recommended writing structure</h3>
+            <ul>
+              <li>State what the app does in one sentence.</li>
+              <li>Explain who it is for or what problem it solves.</li>
+              <li>Mention the tools you used or would use to build it.</li>
+              <li>Highlight one or two standout features.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer-note">Tip: later, you can add screenshots or link each project to its own detail page.</p>
+    </div>
+  </main>
+
+
+<script src="script.js"></script>
+</body>
+</html>

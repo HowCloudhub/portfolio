@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Education</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-badge"><i class="fa-solid fa-code"></i></div>
+      <div class="brand-text">
+        <strong>Your Name</strong>
+        <span>Developer Portfolio</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="work-sample.html"><i class="fa-solid fa-laptop-code"></i><span class="nav-label">Work Samples</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="skills.html"><i class="fa-solid fa-bolt"></i><span class="nav-label">Skills</span></a></li>
+      <li class="nav-item"><a class="nav-link active" href="education.html"><i class="fa-solid fa-graduation-cap"></i><span class="nav-label">Education</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="aboutme.html"><i class="fa-solid fa-user"></i><span class="nav-label">About & Contact</span></a></li>
+    </ul>
+
+    <div class="theme-wrap">
+    <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+        <span class="theme-label">Toggle Theme</span>
+    </button>
+    </div>
+    <div class="sidebar-footer"><small>EDUCATION</small><p>Show course highlights, academic strengths, and learning milestones.</p></div>
+  </aside>
+
+ <main class="page-content">
+    <div class="container">
+      <section class="hero reveal">
+        <div class="kicker"><i class="fa-solid fa-user-graduate"></i> Academic Highlights</div>
+        <h1 class="gradient-text">Learning the foundations of development, design, and digital problem-solving.</h1>
+        <p>This page is built to showcase your program, relevant coursework, notable projects, and the academic experiences that support your portfolio.</p>
+      </section>
+
+      <section class="section reveal delay-1">
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-school"></i> Your School</span>
+              <span><i class="fa-solid fa-book-open"></i> Your Program</span>
+              <span><i class="fa-solid fa-calendar"></i> 2025 - Present</span>
+            </div>
+            <h3>Current academic focus</h3>
+            <p>Studying modern digital tools, web development principles, interface design, and creative project presentation through coursework and hands-on assignments.</p>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-laptop-file"></i> Coursework</span>
+              <span><i class="fa-solid fa-code"></i> Technical Practice</span>
+            </div>
+            <h3>Relevant coursework</h3>
+            <ul>
+              <li>Web Design and Development</li>
+              <li>Programming Fundamentals</li>
+              <li>User Experience and Visual Communication</li>
+              <li>Project Planning and Digital Presentation</li>
+            </ul>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span><i class="fa-solid fa-award"></i> Strengths</span>
+              <span><i class="fa-solid fa-seedling"></i> Growth</span>
+            </div>
+            <h3>Educational highlights</h3>
+            <p>Developed confidence in organizing ideas, presenting professional-looking work, and translating class assignments into portfolio-ready projects.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section reveal delay-2">
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-medal"></i></div><span class="chip">Achievement</span></div>
+            <h3>Portfolio-ready presentation</h3>
+            <p>Learned how to turn classroom exercises into polished, visually consistent work that communicates both technical effort and professional potential.</p>
+          </article>
+          <article class="info-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-book"></i></div><span class="chip">Learning</span></div>
+            <h3>Continuous improvement</h3>
+            <p>Focused on building stronger layout skills, better code structure, and more confidence in presenting ideas clearly through web-based projects.</p>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer-note">Replace the placeholders with your real school, course name, and relevant classes.</p>
+    </div>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>

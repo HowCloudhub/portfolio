@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | Skills</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-badge"><i class="fa-solid fa-code"></i></div>
+      <div class="brand-text">
+        <strong>Your Name</strong>
+        <span>Developer Portfolio</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="work-sample.html"><i class="fa-solid fa-laptop-code"></i><span class="nav-label">Work Samples</span></a></li>
+      <li class="nav-item"><a class="nav-link active" href="skills.html"><i class="fa-solid fa-bolt"></i><span class="nav-label">Skills</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="education.html"><i class="fa-solid fa-graduation-cap"></i><span class="nav-label">Education</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="aboutme.html"><i class="fa-solid fa-user"></i><span class="nav-label">About & Contact</span></a></li>
+    </ul>
+
+    <div class="theme-wrap">
+    <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+        <span class="theme-label">Toggle Theme</span>
+    </button>
+    </div>
+    <div class="sidebar-footer"><small>SKILLS</small><p>Use this page to show both technical ability and teamwork strengths.</p></div>
+  </aside>
+
+  <main class="page-content">
+    <div class="container">
+      <section class="hero reveal">
+        <div class="kicker"><i class="fa-solid fa-bolt"></i> Skills & Capabilities</div>
+        <h1 class="gradient-text">A blend of coding, design thinking, and communication.</h1>
+        <p>These skills represent the tools and habits I use to create polished, user-friendly work. They cover front-end development, project planning, visual presentation, and collaborative problem solving.</p>
+      </section>
+
+      <section class="section reveal delay-1">
+        <div class="card-grid">
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-brands fa-html5"></i></div><span class="chip">Front-End</span></div>
+            <h3>HTML5</h3>
+            <p>Building well-structured page layouts and semantic web content for accessible and maintainable websites.</p>
+          </article>
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-brands fa-css3-alt"></i></div><span class="chip">Styling</span></div>
+            <h3>CSS3</h3>
+            <p>Creating responsive designs, visual hierarchy, animations, hover effects, and polished layouts for portfolio-style sites.</p>
+          </article>
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-brands fa-js"></i></div><span class="chip">Logic</span></div>
+            <h3>JavaScript</h3>
+            <p>Adding interactivity, UI behavior, dynamic content, and game or app logic for browser-based projects.</p>
+          </article>
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-object-group"></i></div><span class="chip">Design</span></div>
+            <h3>UI / UX Thinking</h3>
+            <p>Designing interfaces that are modern, clear, intuitive, and easy for users to navigate.</p>
+          </article>
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-people-group"></i></div><span class="chip">Collaboration</span></div>
+            <h3>Team Communication</h3>
+            <p>Presenting ideas clearly, documenting project goals, and collaborating effectively in class or group environments.</p>
+          </article>
+          <article class="skill-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-lightbulb"></i></div><span class="chip">Mindset</span></div>
+            <h3>Problem Solving</h3>
+            <p>Breaking larger ideas into manageable features and refining solutions through testing and iteration.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-col reveal delay-2">
+        <article class="panel info-card">
+          <h3>Technical toolbox</h3>
+          <div class="tag-row">
+            <span class="tag"><i class="fa-brands fa-github"></i> GitHub</span>
+            <span class="tag"><i class="fa-solid fa-window-maximize"></i> Responsive Layouts</span>
+            <span class="tag"><i class="fa-solid fa-code-branch"></i> Version Control</span>
+            <span class="tag"><i class="fa-solid fa-wand-magic"></i> UI Animation</span>
+            <span class="tag"><i class="fa-solid fa-pen-ruler"></i> Wireframing</span>
+          </div>
+        </article>
+        <article class="panel info-card">
+          <h3>Professional strengths</h3>
+          <ul class="list-clean">
+            <li><i class="fa-solid fa-check"></i><span>Organized project presentation</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Fast learner with new tools</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Attention to layout and detail</span></li>
+            <li><i class="fa-solid fa-check"></i><span>Clear written communication</span></li>
+          </ul>
+        </article>
+      </section>
+
+      <p class="footer-note">Customize these skills to match the exact technologies from your course.</p>
+    </div>
+  </main>
+
+
+<script src="script.js"></script>
+</body>
+</html>

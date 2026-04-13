@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio | About Me</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <aside class="sidebar">
+    <div class="brand">
+      <div class="brand-badge"><i class="fa-solid fa-code"></i></div>
+      <div class="brand-text">
+        <strong>Your Name</strong>
+        <span>Developer Portfolio</span>
+      </div>
+    </div>
+    <ul class="nav-menu">
+      <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa-solid fa-house"></i><span class="nav-label">Home</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="work-sample.html"><i class="fa-solid fa-laptop-code"></i><span class="nav-label">Work Samples</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="skills.html"><i class="fa-solid fa-bolt"></i><span class="nav-label">Skills</span></a></li>
+      <li class="nav-item"><a class="nav-link" href="education.html"><i class="fa-solid fa-graduation-cap"></i><span class="nav-label">Education</span></a></li>
+      <li class="nav-item"><a class="nav-link active" href="aboutme.html"><i class="fa-solid fa-user"></i><span class="nav-label">About & Contact</span></a></li>
+    </ul>
+
+    <div class="theme-wrap">
+    <button class="theme-toggle" type="button" onclick="toggleTheme()" aria-label="Toggle theme">
+        <i class="fa-solid fa-sun"></i>
+        <span class="theme-label">Toggle Theme</span>
+    </button>
+    </div>
+    <div class="sidebar-footer"><small>ABOUT</small><p>Use this page to share your story and how people can reach you.</p></div>
+  </aside>
+
+  <main class="page-content">
+    <div class="container">
+      <section class="hero reveal">
+        <div class="kicker"><i class="fa-solid fa-id-card"></i> About Me</div>
+        <h1 class="gradient-text">Curious builder, creative problem-solver, and future-ready developer.</h1>
+        <p>I enjoy turning ideas into web experiences that feel clear, modern, and engaging. My interests include interactive interfaces, app concepts, visual storytelling, and building practical projects that can keep evolving over time.</p>
+      </section>
+
+      <section class="section two-col reveal delay-1">
+        <article class="panel info-card">
+          <h3>Personal profile</h3>
+          <p>I am building my portfolio around thoughtful design, strong presentation, and a willingness to learn quickly. I like projects where visual polish and technical logic work together, especially in websites, dashboards, and interactive apps.</p>
+          <ul class="list-clean">
+            <li><i class="fa-solid fa-arrow-right"></i><span>Interested in front-end development and user experience</span></li>
+            <li><i class="fa-solid fa-arrow-right"></i><span>Enjoy creating portfolio-ready project concepts</span></li>
+            <li><i class="fa-solid fa-arrow-right"></i><span>Focused on building a clean professional online presence</span></li>
+          </ul>
+        </article>
+
+        <article class="panel info-card">
+          <h3>Contact details</h3>
+          <div class="contact-grid">
+            <div class="contact-card">
+              <h3><i class="fa-regular fa-envelope"></i> Email</h3>
+              <p><a href="mailto:yourname@email.com">yourname@email.com</a></p>
+            </div>
+            <div class="contact-card">
+              <h3><i class="fa-brands fa-github"></i> GitHub</h3>
+              <p><a href="#">github.com/yourusername</a></p>
+            </div>
+            <div class="contact-card">
+              <h3><i class="fa-brands fa-linkedin"></i> LinkedIn</h3>
+              <p><a href="#">linkedin.com/in/yourname</a></p>
+            </div>
+            <div class="contact-card">
+              <h3><i class="fa-solid fa-location-dot"></i> Location</h3>
+              <p>Your City, State</p>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="section reveal delay-2">
+        <div class="section-header">
+          <h2>What I want this portfolio to communicate</h2>
+          <p class="muted">A clear, professional first impression.</p>
+        </div>
+        <div class="card-grid">
+          <article class="info-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-eye"></i></div><span class="chip">Clarity</span></div>
+            <h3>Professional presentation</h3>
+            <p>A clean design that helps viewers understand my work quickly and navigate the site easily.</p>
+          </article>
+          <article class="info-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-heart"></i></div><span class="chip">Personality</span></div>
+            <h3>Creative identity</h3>
+            <p>A style that feels polished and modern while still reflecting my own interests and project ideas.</p>
+          </article>
+          <article class="info-card">
+            <div class="card-top"><div class="icon-box"><i class="fa-solid fa-compass-drafting"></i></div><span class="chip">Direction</span></div>
+            <h3>Growth potential</h3>
+            <p>A portfolio foundation I can continue updating with real coursework, projects, and experience.</p>
+          </article>
+        </div>
+      </section>
+
+      <p class="footer-note">Update the placeholder contact info before publishing your final version.</p>
+    </div>
+  </main>
+
+<script src="script.js"></script>
+</body>
+</html>
