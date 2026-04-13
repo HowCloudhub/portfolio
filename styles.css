@@ -60,7 +60,7 @@ body {
 .sidebar {
   position: fixed;
   inset: 0 auto 0 0;
-  width: var(--sidebar-collapsed);
+  width: var(--sidebar-expanded);
   height: 100vh;
   background: var(--sidebar-bg);
   color: var(--sidebar-text);
@@ -73,10 +73,7 @@ body {
   border-right: 1px solid rgba(255,255,255,0.08);
 }
 
-.sidebar:hover,
-.sidebar:focus-within {
-  width: var(--sidebar-expanded);
-}
+
 
 .brand {
   display: flex;
@@ -413,8 +410,17 @@ ul, ol {
     --sidebar-expanded: 230px;
   }
 
+  .sidebar {
+    width: var(--sidebar-collapsed);
+  }
+
+  .sidebar:hover,
+  .sidebar:focus-within {
+    width: var(--sidebar-expanded);
+  }
+
   .page-content {
-    padding-left: calc(var(--sidebar-expanded) + 18px);
+    padding-left: calc(var(--sidebar-collapsed) + 18px);
     padding-right: 18px;
   }
 
@@ -437,8 +443,17 @@ ul, ol {
     --sidebar-expanded: 210px;
   }
 
+  .sidebar {
+    width: var(--sidebar-collapsed);
+  }
+
+  .sidebar:hover,
+  .sidebar:focus-within {
+    width: var(--sidebar-expanded);
+  }
+
   .page-content {
-    padding-left: calc(var(--sidebar-expanded) + 14px);
+    padding-left: calc(var(--sidebar-collapsed) + 14px);
     padding-right: 14px;
     padding-top: 20px;
     padding-bottom: 20px;
