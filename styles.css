@@ -483,3 +483,22 @@ ul, ol {
     font-size: 1.8rem;
   }
 }
+
+.fa-python { color: #3776AB; }
+.fa-java { color: #f89820; }
+
+.fa-shield-halved { color: #ef4444; }   /* red */
+.fa-arrows-rotate { color: #22c55e; }  /* green */
+
+.fa-code { color: #3b82f6; }           /* blue for dev tools */
+.fa-arrows-rotate { color: #22c55e; } /* green for improvement */
+
+.stat-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* keeps everything centered */
+}
+
+.timeline-item {
+  text-align: center;
+}
