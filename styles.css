@@ -512,3 +512,54 @@ ul, ol {
 .stat-card a:hover {
   text-decoration: underline;
 }
+
+.list-clean {
+  list-style: none;
+  padding-left: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* 👈 centers each row */
+}
+
+.list-clean li {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;   /* 👈 centers icon + text together */
+  gap: 10px;
+  margin-bottom: 10px;
+
+  max-width: 700px;          /* optional: keeps lines readable */
+  text-align: left;          /* keeps text readable (not awkward centered wrapping) */
+}
+
+.list-clean i {
+  color: #22c55e; /* green tick */
+  margin-top: 4px;
+}
+
+.list-clean span {
+  font-weight: 600;   /* 👈 bold text */
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* 👈 centers button + text */
+  text-align: center;
+}
+
+.resume-btn {
+  color: var(--purple);   /* 👈 your custom color */
+}
+
+.info-card .list-clean {
+  display: flex;
+  flex-direction: column;
+  align-items: center;   /* centers each list row */
+}
+
+.info-card .list-clean li {
+  justify-content: center;  /* centers icon + text together */
+  text-align: center;       /* centers the text */
+}
