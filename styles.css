@@ -502,3 +502,13 @@ ul, ol {
 .timeline-item {
   text-align: center;
 }
+
+.stat-card a {
+  color: var(--purple);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.stat-card a:hover {
+  text-decoration: underline;
+}
